@@ -14,6 +14,7 @@ document.body.innerHTML = document.body.innerHTML.replace(/t\$\$anonymous\$\$s/g
                                                 .replace(/W\$\$anonymous\$\$le/g, "While")
                                                 .replace(/w\$\$anonymous\$\$le/g, "while")
                                                 .replace(/\$\$anonymous\$\$de/g, "hide")
+                                                .replace(/\$\$anonymous\$\$ghest/g, "highest")
                                                 .replace(/arc\$\$anonymous\$\$ve/g, "archive")
                                                 .replace(/\$\$anonymous\$\$athf/g, "Mathf")
                                                 .replace(/\$\$anonymous\$\$in/g, "Min")
