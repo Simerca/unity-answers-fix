@@ -9,4 +9,5 @@ document.body.innerHTML = document.body.innerHTML.replace(/t\$\$anonymous\$\$s/g
                                                 .replace(/c\$\$anonymous\$\$ld/g, "child")
                                                 .replace(/W\$\$anonymous\$\$le/g, "While")
                                                 .replace(/w\$\$anonymous\$\$le/g, "while")
+                                                .replace(/p\$\$anonymous\$\$cs/g, "phics") // Graphics
                                                 .replace(/\$\$anonymous\$\$erarchy/g, "hierarchy");
