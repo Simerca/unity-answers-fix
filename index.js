@@ -52,6 +52,7 @@ function functionWhoReplaceText(text)
                     .replace(/w\$\$anonymous\$\$le/g, "while")
                     .replace(/w\$\$anonymous\$\$ch/g, "which")
                     .replace(/W\$\$anonymous\$\$ch/g, "Which")
+                    .replace(/ \$\$anonymous\$\$gh /g, " High ") // High with space
                     .replace(/be\$\$anonymous\$\$nd/g, "behind")
                     .replace(/Be\$\$anonymous\$\$nd/g, "Behind")
                     .replace(/orthograp\$\$anonymous\$\$c/g, "orthographic")
